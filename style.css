@@ -1,0 +1,88 @@
+ /*Body bg fixed num lists*/
+ body {
+    background-color: rgb(252, 107, 177);
+    background-image: url(https://preview.redd.it/zfohxnf8t3pa1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=0f660e0a56476991ee3b97f2885d8c010fec5b97);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    /*..background: blue no-repeat center;..*/
+}
+ 
+ 
+ /*Header*/
+header  {
+    color: rgb(99, 51, 255);
+    text-align: center;
+}
+
+.mybox {
+    width: 300px;
+    height: 150px;
+    background-image: url(img/jelly-and-fish-swimming-01-942464810cad441ebdec8a5b4b94489d.jpg);
+    background-size: cover;
+}
+
+.dotted {
+    border-style: dotted;
+    border-width: 5px;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.solid {
+    border-style: solid;
+}
+
+.double {
+    border-style: double;
+}
+
+.groove {
+    border-style: groove;
+}
+
+.ridge {
+    border-style: ridge;
+}
+
+.inset {
+    border-style: inset;
+}
+
+.outset {
+    border-style: outset;
+}
+
+.none {
+    border-style: none;
+}
+
+.hidden {
+    border-style: hidden;
+}
+
+.mix {
+    border-style: dotted dashed solid double;
+}
+
+/*or เป็นเปอร์เซ็นต์*/
+.love {
+    width: 300px;
+    height: 150px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 10px solid white;
+    margin: 50px;
+    color: aquamarine;
+    text-align: justify;
+    text-decoration: dotted;/*color thickness*/
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 10px;
+    line-height: 1px;
+    text-shadow: 2px 2px navy;
+}
+
