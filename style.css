@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+ 
+/*
+p {
+    display:inline;
+}*/
+
  /*Body bg fixed num lists*/
  body {
     background-color: rgb(252, 107, 177);
@@ -14,14 +21,22 @@
 header  {
     color: rgb(99, 51, 255);
     text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 50px;
+    font-style: italic;
 }
 
 .mybox {
-    width: 300px;
+    max-width: 300px;
     height: 150px;
     background-image: url(img/jelly-and-fish-swimming-01-942464810cad441ebdec8a5b4b94489d.jpg);
     background-size: cover;
 }
+
+/*
+    display: none;
+    visibility: hidden;
+*/
 
 .dotted {
     border-style: dotted;
@@ -86,3 +101,12 @@ header  {
     text-shadow: 2px 2px navy;
 }
 
+table, th, tr {
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tr:hover {
+    background-color: blanchedalmond;
+}
